@@ -1,6 +1,6 @@
 const questions = [
     "O que eu aprendi hoje?",
-    "O que me deixou com raiva? E que eu poderia fazer para melhorar?",
+    "O que me deixou com raiva e que eu poderia fazer para melhorar?",
     "O que me deixou feliz?",
     "Quantas pessoas eu ajudei hoje?",
 ];
@@ -30,7 +30,7 @@ process.on('exit', () => {
     O que aprendeu hoje foi:
     ${answers[0]}
 
-    O que me deixou com raiva e que eu poderia fazer para melhorar?:
+    O que me deixou com raiva e que eu poderia fazer para melhorar foi:
     ${answers[1]}
     O que te deixou feliz foi:
     ${answers[2]}
